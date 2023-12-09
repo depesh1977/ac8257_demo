@@ -136,7 +136,7 @@ DEVICE_RESOLUTION := 720x1280
 TW_ROTATION := 90
 TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 TW_NO_SCREEN_TIMEOUT := true
-TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zoneNN/temp
+TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone 1/temp
 
 # Show build time on the splash screen
 TW_DEVICE_VERSION=$(shell date '+%Y%m%d')
